@@ -51,6 +51,20 @@ body {
 .header-desktop>h1 {
     font-size: 6vh;
 }
+
+.header-mobile {
+    font-family: 'custom', sans-serif;
+    height: 7vh;    
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2.5vh;
+ }
+
+.header-mobile>h1 {
+    padding-top: 0.5vh;
+    font-size: 2vh;
+}
  nav {
     display : flex;
     flex-direction: row;
@@ -80,4 +94,24 @@ body {
 
  .nav-button-desktop:hover {
     background-color: var(--main-font);
+ }main
+
+ .nav-mobile {
+    font-family: 'custom', sans-serif;
+    width: 100vw;
+    height: 6vh;
  }
+
+ .nav-button-mobile {
+    display : block;
+    text-align : center;
+    height: 50%;
+    width : 45%;
+    font-size: 1.5vh;
+    padding-top: 1vh;
+    background-color: var(--main-back);
+    color: var(--head-back);
+    border-radius: 5px;
+    text-decoration: none;
+ }
+
